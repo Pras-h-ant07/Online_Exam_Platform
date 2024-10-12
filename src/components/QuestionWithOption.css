@@ -1,0 +1,36 @@
+/* QuestionWithOption component styling */
+.left-section {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    user-select: none; /* to prevent from text copying*/
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .question-action-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    margin: 25px;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    color: rgb(0, 0, 0);
+    border: solid black 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  
